@@ -29,7 +29,12 @@
                                 <rect key="frame" x="0.0" y="818" width="414" height="44"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
                                 <items>
-                                    <barButtonItem title="Item" id="CkI-Ir-uDu"/>
+                                    <barButtonItem style="plain" systemItem="flexibleSpace" id="R0E-OJ-rek"/>
+                                    <barButtonItem title="Создать контакт" id="CkI-Ir-uDu">
+                                        <connections>
+                                            <action selector="showNewContactAlert" destination="BYZ-38-t0r" id="h2H-kE-xB0"/>
+                                        </connections>
+                                    </barButtonItem>
                                 </items>
                             </toolbar>
                         </subviews>
@@ -45,6 +50,9 @@
                             <constraint firstItem="bJJ-9p-b38" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="gby-Ka-vK4"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="tableView" destination="IdY-3f-UzV" id="mLr-MO-hTO"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
