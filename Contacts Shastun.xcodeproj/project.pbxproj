@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A4583C2D2B3B822600AADFD0 /* Contact.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4583C2C2B3B822600AADFD0 /* Contact.swift */; };
 		A47594602B04A2EF002BE779 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A475945F2B04A2EF002BE779 /* AppDelegate.swift */; };
 		A47594622B04A2EF002BE779 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A47594612B04A2EF002BE779 /* SceneDelegate.swift */; };
 		A47594642B04A2EF002BE779 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A47594632B04A2EF002BE779 /* ViewController.swift */; };
@@ -16,6 +17,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		A4583C2C2B3B822600AADFD0 /* Contact.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Contact.swift; sourceTree = "<group>"; };
 		A475945C2B04A2EF002BE779 /* Contacts Shastun.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Contacts Shastun.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A475945F2B04A2EF002BE779 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A47594612B04A2EF002BE779 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -37,6 +39,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		A4583C2B2B3B821800AADFD0 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				A4583C2C2B3B822600AADFD0 /* Contact.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
 		A47594532B04A2EF002BE779 = {
 			isa = PBXGroup;
 			children = (
@@ -56,6 +66,7 @@
 		A475945E2B04A2EF002BE779 /* Contacts Shastun */ = {
 			isa = PBXGroup;
 			children = (
+				A4583C2B2B3B821800AADFD0 /* Model */,
 				A475945F2B04A2EF002BE779 /* AppDelegate.swift */,
 				A47594612B04A2EF002BE779 /* SceneDelegate.swift */,
 				A47594632B04A2EF002BE779 /* ViewController.swift */,
@@ -138,6 +149,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A4583C2D2B3B822600AADFD0 /* Contact.swift in Sources */,
 				A47594642B04A2EF002BE779 /* ViewController.swift in Sources */,
 				A47594602B04A2EF002BE779 /* AppDelegate.swift in Sources */,
 				A47594622B04A2EF002BE779 /* SceneDelegate.swift in Sources */,
@@ -300,6 +312,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -328,6 +341,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
